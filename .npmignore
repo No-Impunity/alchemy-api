@@ -1,0 +1,10 @@
+lib
+index.ts
+package-lock.json
+tslint.json
+.prettierrc
+.commitlintrc.json
+.release-it.json
+.eslintignore
+.eslintrc.js
+.vscode

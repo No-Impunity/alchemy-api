@@ -9,9 +9,5 @@
   "testRegex": ".e2e-spec.ts$",
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"
-  },
-  "moduleNameMapper": {
-    "@darrenyeom/alchemy-api/(.*)": "<rootDir>/../libs/alchemy-api/src/$1",
-    "@darrenyeom/alchemy-api": "<rootDir>/../libs/alchemy-api/src"
   }
 }
