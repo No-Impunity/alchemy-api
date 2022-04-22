@@ -1,6 +1,6 @@
 {
   "name": "@darrenyeom/alchemy-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Alchemy API wrapper for NestJS",
   "author": "Jeheon Yeom",
   "license": "MIT",
@@ -19,7 +19,6 @@
     "prerelease": "npm run build",
     "release": "release-it"
   },
-  "dependencies": {},
   "devDependencies": {
     "@alch/alchemy-web3": "^1.4.1",
     "@nestjs/cli": "^8.0.0",
@@ -74,5 +73,9 @@
     "roots": [
       "<rootDir>/lib/"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhixian001/alchemy-api"
   }
 }
