@@ -1,6 +1,6 @@
 {
   "name": "@darrenyeom/alchemy-api",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Alchemy API wrapper for NestJS",
   "author": "Jeheon Yeom",
   "license": "MIT",
@@ -52,7 +52,7 @@
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "@alch/alchemy-web3": "^1.0.0",
+    "@alch/alchemy-web3": "1.x",
     "@nestjs/common": "^6.0.0 || ^7.0.0 || ^8.0.0"
   },
   "jest": {
