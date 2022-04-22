@@ -1,5 +1,19 @@
 {
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
-  "sourceRoot": "src"
+  "sourceRoot": "src",
+  "projects": {
+    "alchemy-api": {
+      "type": "library",
+      "root": "libs/alchemy-api",
+      "entryFile": "index",
+      "sourceRoot": "libs/alchemy-api/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/alchemy-api/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
 }
