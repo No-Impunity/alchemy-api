@@ -55,4 +55,4 @@ export class AppService {
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+[MIT](LICENSE).
