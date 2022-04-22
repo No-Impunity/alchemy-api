@@ -1,9 +1,8 @@
 {
   "name": "@darrenyeom/alchemy-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Alchemy API wrapper for NestJS",
   "author": "Jeheon Yeom",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -16,7 +15,7 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "prepublish:npm": "npm run build",
-    "publish:npm": "npm publish --access private",
+    "publish:npm": "npm publish --access public",
     "prerelease": "npm run build",
     "release": "release-it"
   },
@@ -53,8 +52,8 @@
     "typescript": "^4.3.5"
   },
   "peerDependencies": {
-    "@alch/alchemy-web3": "^1.4.1",
-    "@nestjs/common": "^8.0.0"
+    "@alch/alchemy-web3": "^1.0.0",
+    "@nestjs/common": "^6.0.0 || ^7.0.0 || ^8.0.0"
   },
   "jest": {
     "moduleFileExtensions": [
