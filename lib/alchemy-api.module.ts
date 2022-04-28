@@ -9,7 +9,8 @@ export class AlchemyApiModule {
     return {
       ...options,
       module: AlchemyApiModule,
-      exports: [AlchemyApiService],
+      exports: [AlchemyApiService, ALCHEMY_API_MODULE_OPTIONS],
+      global: options.isGlobal ?? false,
       providers: [
         {
           provide: ALCHEMY_API_MODULE_OPTIONS,
